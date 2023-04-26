@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  color: #00a2c6;
+}
+
+h3 {
+  color: #00a2c6;
+}
+
+/* HEADER */
+.jumbotron {
+  padding-block: 16px;
+
+  background-color: #00c8eb;
+  text-align: center;
+
+  font-size: 20px;
+  color: white;
+}
+
+nav {
+  background-color: #00a2c6;
+}
+
+nav ul {
+  padding-block: 16px;
+}
+
+nav li {
+  list-style-type: none;
+
+  display: inline;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+
+  color: white;
+}
+/* AKHIR HEADER */
+
+/* MAIN */
+.profile header {
+  text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile img {
+  width: 200px;
+}
+/* AKHIR MAIN */
+
+/* FOOTER */
+footer {
+  padding: 16px;
+  background-color: #00a2c6;
+
+  color: #fff;
+}
+/* AKHIR FOOTER */
